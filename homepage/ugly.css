@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
+:root {
+
+    --filter-inverted: invert(0);
+    --boxshadow: #dadada;
+}
+@keyframes page {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+body {
+    /* background-image: url('icons/ProfessionalPhoto.jfif'); */
+    animation-name: page;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-size: 5vw;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    background-color: yellow;
+}
+
+#header {
+    text-align: left;
+}
+
+#content {
+    width: 50%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-weight: 400;
+    text-align: center;
+}
+
+img {
+    filter: hue-rotate(180deg)
+}
+
+
+.section {
+    margin: 10vh;
+    background: white;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+
+#skills {
+    text-align: center;
+}
+
+#skills p {
+    width: fit-content;
+    border-radius: 5px;
+    margin: 2px;
+    display: inline;
+}
+
+#sidebar {
+    height: 100%;
+    width: 20vw;
+    display: inline;
+    float: left;
+}
