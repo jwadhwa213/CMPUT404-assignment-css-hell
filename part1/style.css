@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap');
+
+body {
+    font-family: Arial, Comic Sans MS Arial narrow, Baskerville, serif;
+    background-color: lightgoldenrodyellow;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    text-indent: 0em;
+    font-family: 'Baskerville', Serif;
+}
+h1 {
+    letter-spacing: 0em;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1em;
+    font-family: 'Bahnschrift', Serif;
+    font-weight: 350;
+}
+
+img {
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 1em;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+center h3 {
+    font-style: italic;
+}
